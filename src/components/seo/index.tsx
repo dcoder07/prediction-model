@@ -3,11 +3,11 @@ import { NextSeo } from 'next-seo';
 const SEO = () => {
 	return (
 		<NextSeo
-			title='Envoy1084'
+			title='Dishank Patil'
 			description='Hi 👋, I am Vedant (aka Envoy_) and this is my Permaweb Page.'
 			openGraph={{
 				url: 'https://w3-starter.vercel.app',
-				title: 'Envoy1084',
+				title: 'dcoder07',
 				description:
 					'Hi 👋, I am Vedant (aka Envoy_) and this is my Permaweb Page.',
 				images: [

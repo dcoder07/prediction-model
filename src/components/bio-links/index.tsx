@@ -11,9 +11,6 @@ const BioLinks = () => {
 		<div className='mb-4 mt-4 flex flex-col gap-8 xl:flex-row'>
 			<div className='w-full basis-1/2'>
 				<div className='relative'>
-					<div className='absolute bottom-0 m-4 rounded-lg bg-white px-3 py-[3px] transition-all duration-500 ease-out hover:scale-105'>
-						Indie Maker
-					</div>
 					<Image
 						src={Workstation}
 						alt='Workstation'

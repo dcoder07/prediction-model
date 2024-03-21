@@ -16,25 +16,15 @@ const BlogPostCard = ({ post }: Props) => {
 	} = post;
 	return (
 		<Link href={url} target='_blank' className='w-full'>
-			<Card className=''>
+			<Card className='h-full'>
 				<div className='flex flex-col gap-6 p-4'>
-					<div className='flex flex-row items-center gap-2'>
-						<Image
-							src={publication.favicon}
-							alt={`${publication.title} Logo`}
-							width={24}
-							height={24}
-							className='rounded-xl'
-						/>
-						<div className='text-[14px]'>{publication.title}</div>
-					</div>
-					<div className='text-[1rem] font-medium'>{title}</div>
+					<div className='text-[1rem] font-semibold text-neutral-600'>{title}</div>
 					<Image
 						src={coverImage.url}
 						alt={title}
 						width={400}
 						height={157}
-						className='aspect-video rounded-xl'
+						className='aspect-video rounded-xl shadow-sm'
 					/>
 				</div>
 			</Card>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import Logo from '../../../public/assets/logo.png';
+import Logo from '../../../public/assets/logo.jpg';
 
 const Profile = () => {
 	return (
@@ -16,15 +16,15 @@ const Profile = () => {
 						className='rounded-full lg:max-w-[128px] xl:max-w-[180px]'
 					/>
 					<div className='mb-2 mt-4 text-3xl font-bold xl:text-5xl'>
-						Vedant Chainani
+						Dishank Patil
 					</div>
 				</div>
 				<div className='flex flex-col gap-2 text-lg text-[#565656] xl:text-xl'>
-					<div className='mb-3'>developer and technical writer ✎</div>
+					<div className='mb-3'>Developer and Technical Writer 🖊️</div>
 					<div>
-						✦ exploring <span className='font-medium'>ⓐ Arweave</span>
+						✦ exploring <span className='font-medium'>web development</span>
 					</div>
-					<div>✦ love hackathons</div>
+					<div>✦ love reading books</div>
 					<div>✦ based in India 🇮🇳</div>
 				</div>
 			</div>

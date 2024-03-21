@@ -3,8 +3,8 @@ import type { HashnodeResponse, Post } from '~/types';
 export const getBlogPosts = async () => {
 	const query = `
 		query {
-			user(username: "Envoy1084") {
-				posts(pageSize: 4, page: 1, sortBy: DATE_PUBLISHED_DESC) {
+			user(username: "DishankPatil") {
+				posts(pageSize: 2, page: 1, sortBy: DATE_PUBLISHED_DESC) {
 					edges {
 						node {
 							url
